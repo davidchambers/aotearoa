@@ -39,6 +39,8 @@ hi Visual         guibg=#ffffff guifg=#282828
 
 hi coffeeEscape   guibg=#88aa44 guifg=#282828
 hi coffeeInterpDelim            guifg=#505050
+hi coffeeOperator               guifg=#cc8844
+hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
 " These are the default highlighting groups.  These groups are used by the
