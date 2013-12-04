@@ -43,6 +43,8 @@ hi coffeeOperator               guifg=#cc8844
 hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
+hi link jsFunction Type
+
 " These are the default highlighting groups.  These groups are used by the
 " 'highlight' option default.  Note that the highlighting depends on the value
 " of 'background'.  You can see the current settings with the ":highlight"
