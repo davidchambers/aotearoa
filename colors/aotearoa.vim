@@ -44,6 +44,7 @@ hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
 hi link jsFunction Type
+hi link jsOperator Statement
 
 " These are the default highlighting groups.  These groups are used by the
 " 'highlight' option default.  Note that the highlighting depends on the value
