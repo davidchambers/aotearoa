@@ -43,6 +43,7 @@ hi coffeeOperator               guifg=#cc8844
 hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
+hi jsGlobalObjects              guifg=#779999
 hi link jsFunction Type
 hi link jsOperator Statement
 
