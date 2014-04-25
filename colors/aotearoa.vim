@@ -35,6 +35,10 @@ hi MatchParen       ctermbg=64    ctermfg=252   guibg=#88aa44   guifg=#e6e1dc
 hi NonText                        ctermfg=237                   guifg=#444444
 hi Search           ctermbg=237   ctermfg=252   guibg=#444444   guifg=#e6e1dc
 hi SpecialKey                     ctermfg=236                   guifg=#333333
+hi SpellBad         ctermbg=NONE  ctermfg=160   guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#ff0000
+hi SpellCap         ctermbg=NONE  ctermfg=27    guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#0033ff
+hi SpellLocal       ctermbg=NONE  ctermfg=199   guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#ff00ff
+hi SpellRare        ctermbg=NONE  ctermfg=87    guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#00ffff
 hi Title                          ctermfg=64                    guifg=#88aa44
 hi Visual           ctermbg=231   ctermfg=234   guibg=#ffffff   guifg=#282828
 
@@ -104,20 +108,6 @@ hi link jsOperator Statement
 " PmenuThumb	Popup menu: Thumb of the scrollbar.
 " 							*hl-Question*
 " Question	|hit-enter| prompt and yes/no questions
-" 							*hl-SpellBad*
-" SpellBad	Word that is not recognized by the spellchecker. |spell|
-" 		This will be combined with the highlighting used otherwise.
-" 							*hl-SpellCap*
-" SpellCap	Word that should start with a capital. |spell|
-" 		This will be combined with the highlighting used otherwise.
-" 							*hl-SpellLocal*
-" SpellLocal	Word that is recognized by the spellchecker as one that is
-" 		used in another region. |spell|
-" 		This will be combined with the highlighting used otherwise.
-" 							*hl-SpellRare*
-" SpellRare	Word that is recognized by the spellchecker as one that is
-" 		hardly ever used. |spell|
-" 		This will be combined with the highlighting used otherwise.
 " 							*hl-StatusLine*
 " StatusLine	status line of current window
 " 							*hl-StatusLineNC*
