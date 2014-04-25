@@ -6,44 +6,45 @@ endif
 
 let g:colors_name = "aotearoa"
 
-hi Normal         guibg=#282828 guifg=#e6e1dc
+hi Normal           ctermbg=234   ctermfg=252   guibg=#282828   guifg=#e6e1dc
 
-hi Comment                      guifg=#666666
+hi Comment                        ctermfg=241                   guifg=#666666
 
-hi Constant                     guifg=#ddcc99
-  hi String                     guifg=#88aa44
-  hi Number                     guifg=#779999
+hi Constant                       ctermfg=179                   guifg=#ddcc99
+  hi String                       ctermfg=64                    guifg=#88aa44
+  hi Number                       ctermfg=66                    guifg=#779999
 
-hi Identifier                   guifg=NONE
+hi Identifier                     ctermfg=NONE                  guifg=NONE
 
-hi Statement                    guifg=#cc8844
-  hi Operator                   guifg=NONE
+hi Statement                      ctermfg=172                   guifg=#cc8844
+  hi Operator                     ctermfg=NONE                  guifg=NONE
 
-hi PreProc                      guifg=#779999
+hi PreProc                        ctermfg=66                    guifg=#779999
 
-hi Type                         guifg=#ddcc99
+hi Type                           ctermfg=179                   guifg=#ddcc99
 
-hi Special                      guifg=NONE
+hi Special                        ctermfg=NONE                  guifg=NONE
 
-hi Todo           guibg=NONE    guifg=#666666 gui=underline
+hi Todo             ctermbg=NONE  ctermfg=241   guibg=NONE      guifg=#666666   cterm=underline   gui=underline
 
-hi Underlined                   guifg=NONE
+hi Underlined                     ctermfg=NONE                  guifg=NONE
 
-hi Delimiter                    guifg=#88aa44
-hi LineNr                       guifg=#505050
-hi MatchParen     guibg=#88aa44 guifg=#e6e1dc
-hi NonText                      guifg=#505050
-hi Search         guibg=#444444 guifg=#e6e1dc
-hi Title                        guifg=#88aa44
-hi Visual         guibg=#ffffff guifg=#282828
+hi Delimiter                      ctermfg=64                    guifg=#88aa44
+hi LineNr                         ctermfg=237                   guifg=#444444
+hi MatchParen       ctermbg=64    ctermfg=252   guibg=#88aa44   guifg=#e6e1dc
+hi NonText                        ctermfg=237                   guifg=#444444
+hi Search           ctermbg=237   ctermfg=252   guibg=#444444   guifg=#e6e1dc
+hi SpecialKey                     ctermfg=236                   guifg=#333333
+hi Title                          ctermfg=64                    guifg=#88aa44
+hi Visual           ctermbg=231   ctermfg=234   guibg=#ffffff   guifg=#282828
 
-hi coffeeEscape   guibg=#88aa44 guifg=#282828
-hi coffeeInterpDelim            guifg=#505050
-hi coffeeOperator               guifg=#cc8844
+hi coffeeEscape     ctermbg=64    ctermfg=234   guibg=#88aa44   guifg=#282828
+hi coffeeInterpDelim              ctermfg=237                   guifg=#444444
+hi coffeeOperator                 ctermfg=172                   guifg=#cc8844
 hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
-hi jsGlobalObjects              guifg=#779999
+hi jsGlobalObjects                ctermfg=66                    guifg=#779999
 hi link jsFunction Type
 hi link jsOperator Statement
 
@@ -103,11 +104,6 @@ hi link jsOperator Statement
 " PmenuThumb	Popup menu: Thumb of the scrollbar.
 " 							*hl-Question*
 " Question	|hit-enter| prompt and yes/no questions
-" 							*hl-SpecialKey*
-" SpecialKey	Meta and special keys listed with ":map", also for text used
-" 		to show unprintable characters in the text, 'listchars'.
-" 		Generally: text that is displayed differently from what it
-" 		really is.
 " 							*hl-SpellBad*
 " SpellBad	Word that is not recognized by the spellchecker. |spell|
 " 		This will be combined with the highlighting used otherwise.
