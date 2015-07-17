@@ -30,6 +30,7 @@ hi Todo             ctermbg=NONE  ctermfg=241   guibg=NONE      guifg=#666666   
 hi Underlined                     ctermfg=NONE                  guifg=NONE
 
 hi Delimiter                      ctermfg=64                    guifg=#88aa44
+hi Folded           ctermbg=NONE  ctermfg=241   guibg=NONE      guifg=#666666
 hi LineNr                         ctermfg=237                   guifg=#444444
 hi MatchParen       ctermbg=64    ctermfg=252   guibg=#88aa44   guifg=#e6e1dc
 hi NonText                        ctermfg=237                   guifg=#444444
@@ -85,8 +86,6 @@ hi link jsOperator Statement
 " ErrorMsg	error messages on the command line
 " 							*hl-VertSplit*
 " VertSplit	the column separating vertically split windows
-" 							*hl-Folded*
-" Folded		line used for closed folds
 " 							*hl-FoldColumn*
 " FoldColumn	'foldcolumn'
 " 							*hl-SignColumn*
