@@ -34,6 +34,11 @@ hi Folded               cterm=NONE        ctermbg=NONE  ctermfg=241   gui=NONE  
 hi LineNr               cterm=NONE        ctermbg=NONE  ctermfg=237   gui=NONE        guibg=NONE      guifg=#444444
 hi MatchParen           cterm=NONE        ctermbg=064   ctermfg=252   gui=NONE        guibg=#88aa44   guifg=#e6e1dc
 hi NonText              cterm=NONE        ctermbg=NONE  ctermfg=237   gui=NONE        guibg=NONE      guifg=#444444
+hi Pmenu                cterm=NONE        ctermbg=255   ctermfg=234   gui=NONE        guibg=#eeeeee   guifg=#282828
+hi PmenuSel             cterm=NONE        ctermbg=179   ctermfg=234   gui=NONE        guibg=#ddcc99   guifg=#282828
+hi PmenuSbar            cterm=NONE        ctermbg=247   ctermfg=NONE  gui=NONE        guibg=#aaaaaa   guifg=NONE
+hi PmenuThumb           cterm=NONE        ctermbg=251   ctermfg=NONE  gui=NONE        guibg=#cccccc   guifg=NONE
+hi Question             cterm=NONE        ctermbg=NONE  ctermfg=179   gui=NONE        guibg=NONE      guifg=#ddcc99
 hi Search               cterm=NONE        ctermbg=237   ctermfg=252   gui=NONE        guibg=#444444   guifg=#e6e1dc
 hi SpecialKey           cterm=NONE        ctermbg=NONE  ctermfg=236   gui=NONE        guibg=NONE      guifg=#333333
 hi SpellBad             cterm=undercurl   ctermbg=NONE  ctermfg=160   gui=undercurl   guibg=NONE      guifg=NONE      guisp=#ff0000
@@ -97,16 +102,6 @@ hi link jsOperator Statement
 " ModeMsg		'showmode' message (e.g., "-- INSERT --")
 " 							*hl-MoreMsg*
 " MoreMsg		|more-prompt|
-" 							*hl-Pmenu*
-" Pmenu		Popup menu: normal item.
-" 							*hl-PmenuSel*
-" PmenuSel	Popup menu: selected item.
-" 							*hl-PmenuSbar*
-" PmenuSbar	Popup menu: scrollbar.
-" 							*hl-PmenuThumb*
-" PmenuThumb	Popup menu: Thumb of the scrollbar.
-" 							*hl-Question*
-" Question	|hit-enter| prompt and yes/no questions
 " 							*hl-StatusLine*
 " StatusLine	status line of current window
 " 							*hl-StatusLineNC*
