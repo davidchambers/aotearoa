@@ -6,50 +6,50 @@ endif
 
 let g:colors_name = "aotearoa"
 
-hi Normal           ctermbg=234   ctermfg=252   guibg=#282828   guifg=#e6e1dc
+hi Normal               cterm=NONE        ctermbg=234   ctermfg=252   gui=NONE        guibg=#282828   guifg=#e6e1dc
 
-hi Comment                        ctermfg=241                   guifg=#666666
+hi Comment              cterm=NONE        ctermbg=NONE  ctermfg=241   gui=NONE        guibg=NONE      guifg=#666666
 
-hi Constant                       ctermfg=179                   guifg=#ddcc99
-  hi String                       ctermfg=64                    guifg=#88aa44
-  hi Number                       ctermfg=66                    guifg=#779999
+hi Constant             cterm=NONE        ctermbg=NONE  ctermfg=179   gui=NONE        guibg=NONE      guifg=#ddcc99
+  hi String             cterm=NONE        ctermbg=NONE  ctermfg=064   gui=NONE        guibg=NONE      guifg=#88aa44
+  hi Number             cterm=NONE        ctermbg=NONE  ctermfg=066   gui=NONE        guibg=NONE      guifg=#779999
 
-hi Identifier                     ctermfg=NONE                  guifg=NONE
+hi Identifier           cterm=NONE        ctermbg=NONE  ctermfg=NONE  gui=NONE        guibg=NONE      guifg=NONE
 
-hi Statement                      ctermfg=172                   guifg=#cc8844
-  hi Operator                     ctermfg=NONE                  guifg=NONE
+hi Statement            cterm=NONE        ctermbg=NONE  ctermfg=172   gui=NONE        guibg=NONE      guifg=#cc8844
+  hi Operator           cterm=NONE        ctermbg=NONE  ctermfg=NONE  gui=NONE        guibg=NONE      guifg=NONE
 
-hi PreProc                        ctermfg=66                    guifg=#779999
+hi PreProc              cterm=NONE        ctermbg=NONE  ctermfg=066   gui=NONE        guibg=NONE      guifg=#779999
 
-hi Type                           ctermfg=179                   guifg=#ddcc99
+hi Type                 cterm=NONE        ctermbg=NONE  ctermfg=179   gui=NONE        guibg=NONE      guifg=#ddcc99
 
-hi Special                        ctermfg=NONE                  guifg=NONE
+hi Special              cterm=NONE        ctermbg=NONE  ctermfg=NONE  gui=NONE        guibg=NONE      guifg=NONE
 
-hi Todo             ctermbg=NONE  ctermfg=241   guibg=NONE      guifg=#666666   cterm=underline   gui=underline
+hi Todo                 cterm=underline   ctermbg=NONE  ctermfg=241   gui=underline   guibg=NONE      guifg=#666666
 
-hi Underlined                     ctermfg=NONE                  guifg=NONE
+hi Underlined           cterm=NONE        ctermbg=NONE  ctermfg=NONE  gui=NONE        guibg=NONE      guifg=NONE
 
-hi Delimiter                      ctermfg=64                    guifg=#88aa44
-hi Folded           ctermbg=NONE  ctermfg=241   guibg=NONE      guifg=#666666
-hi LineNr                         ctermfg=237                   guifg=#444444
-hi MatchParen       ctermbg=64    ctermfg=252   guibg=#88aa44   guifg=#e6e1dc
-hi NonText                        ctermfg=237                   guifg=#444444
-hi Search           ctermbg=237   ctermfg=252   guibg=#444444   guifg=#e6e1dc
-hi SpecialKey                     ctermfg=236                   guifg=#333333
-hi SpellBad         ctermbg=NONE  ctermfg=160   guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#ff0000
-hi SpellCap         ctermbg=NONE  ctermfg=27    guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#0033ff
-hi SpellLocal       ctermbg=NONE  ctermfg=199   guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#ff00ff
-hi SpellRare        ctermbg=NONE  ctermfg=87    guibg=NONE                      cterm=undercurl   gui=undercurl   guisp=#00ffff
-hi Title                          ctermfg=64                    guifg=#88aa44
-hi Visual           ctermbg=231   ctermfg=234   guibg=#ffffff   guifg=#282828
+hi Delimiter            cterm=NONE        ctermbg=NONE  ctermfg=064   gui=NONE        guibg=NONE      guifg=#88aa44
+hi Folded               cterm=NONE        ctermbg=NONE  ctermfg=241   gui=NONE        guibg=NONE      guifg=#666666
+hi LineNr               cterm=NONE        ctermbg=NONE  ctermfg=237   gui=NONE        guibg=NONE      guifg=#444444
+hi MatchParen           cterm=NONE        ctermbg=064   ctermfg=252   gui=NONE        guibg=#88aa44   guifg=#e6e1dc
+hi NonText              cterm=NONE        ctermbg=NONE  ctermfg=237   gui=NONE        guibg=NONE      guifg=#444444
+hi Search               cterm=NONE        ctermbg=237   ctermfg=252   gui=NONE        guibg=#444444   guifg=#e6e1dc
+hi SpecialKey           cterm=NONE        ctermbg=NONE  ctermfg=236   gui=NONE        guibg=NONE      guifg=#333333
+hi SpellBad             cterm=undercurl   ctermbg=NONE  ctermfg=160   gui=undercurl   guibg=NONE      guifg=NONE      guisp=#ff0000
+hi SpellCap             cterm=undercurl   ctermbg=NONE  ctermfg=027   gui=undercurl   guibg=NONE      guifg=NONE      guisp=#0033ff
+hi SpellLocal           cterm=undercurl   ctermbg=NONE  ctermfg=199   gui=undercurl   guibg=NONE      guifg=NONE      guisp=#ff00ff
+hi SpellRare            cterm=undercurl   ctermbg=NONE  ctermfg=087   gui=undercurl   guibg=NONE      guifg=NONE      guisp=#00ffff
+hi Title                cterm=NONE        ctermbg=NONE  ctermfg=064   gui=NONE        guibg=NONE      guifg=#88aa44
+hi Visual               cterm=NONE        ctermbg=231   ctermfg=234   gui=NONE        guibg=#ffffff   guifg=#282828
 
-hi coffeeEscape     ctermbg=64    ctermfg=234   guibg=#88aa44   guifg=#282828
-hi coffeeInterpDelim              ctermfg=237                   guifg=#444444
-hi coffeeOperator                 ctermfg=172                   guifg=#cc8844
+hi coffeeEscape         cterm=NONE        ctermbg=064   ctermfg=234   gui=NONE        guibg=#88aa44   guifg=#282828
+hi coffeeInterpDelim    cterm=NONE        ctermbg=NONE  ctermfg=237   gui=NONE        guibg=NONE      guifg=#444444
+hi coffeeOperator       cterm=NONE        ctermbg=NONE  ctermfg=172   gui=NONE        guibg=NONE      guifg=#cc8844
 hi link coffeeExtendedOp Normal
 hi link coffeeTodo Todo
 
-hi jsGlobalObjects                ctermfg=66                    guifg=#779999
+hi jsGlobalObjects      cterm=NONE        ctermbg=NONE  ctermfg=066   gui=NONE        guibg=NONE      guifg=#779999
 hi link jsFunction Type
 hi link jsOperator Statement
 
